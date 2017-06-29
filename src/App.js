@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HogList from './components/HogList'
 
 import './App.css';
 
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
           < Nav />
-
+          <HogList />
       </div>
     )
   }
